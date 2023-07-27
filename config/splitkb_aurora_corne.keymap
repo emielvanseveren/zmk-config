@@ -24,11 +24,7 @@
 */
 
 
-
-
-
-
-{
+/ {
   
   // combining both first thumb presses should send esc signal
   combos {
