@@ -61,16 +61,16 @@
 
   other_layer {
 // -----------------------------------------------------------------------------------------
-// |BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// |      |     |     |     |     |     |   |PREV |VDWN | VUP |NEXT |  \  |  `   |
-// |      |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// |BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |     |      |
+// |      |     |     |     |     |     |   |PREV |VDWN | VUP |NEXT |     |      |
+// |      |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    |     |     |     |   |     |     |     |
                         label = "other";
                         bindings = <
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans    &trans    &trans    &trans  &trans &trans
    &trans     &trans       &trans       &trans       &trans       &trans            &C_PREV   &C_VOL_DN &C_VOL_UP &C_NEXT &trans &trans
-   &trans     &trans       &trans       &trans       &trans       &trans            &trans    &trans    &trans    &trans  &trans&trans
-                    	     &trans       &trans       &trans   &trans       &trans            &trans
+   &trans     &trans       &trans       &trans       &trans       &trans            &trans    &trans    &trans    &trans  &trans &trans
+                    	                  &trans       &trans       &trans                      &trans    &trans    &trans
                         >;
                 };
 
