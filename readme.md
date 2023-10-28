@@ -1,5 +1,11 @@
 # Aurora Corne Split Keyboard
 
+## Remarks
+
+- The Bluetooth profiles are intentionally set away from the homerow to prevent accidental switching/removal.
+
+## Layout
+
 ```sh
 # generate keymap view:
 # NOTE: it cannot handle `label` in each of the layers.
