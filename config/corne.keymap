@@ -30,15 +30,15 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |     |
-// |  ESC |  *  |  [  |  {  |  (  |  #  |   |  ^  |  )  |  }  |  ]  |  $  | SQT |
+// |  ESC |  *  |  [  |  {  |  (  |  #  |   |  ^  |  )  |  }  |  ]  |  $  |     |
 // | SHFT |     |     |     |     |     |   |  ~  |  =  |  -  |  \  |  ~  |     |
 //                    |     |     |     |   | LYR3| GUI | ALT |
                         label = "Lower";
                         bindings = <
-   &kp TAB  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5         &kp N6    &kp N7    &kp N8   &kp N9    &kp N0    &trans
-   &kp ESC  &kp STAR  &kp LBKT  &kp LBRC  &kp LPAR  &kp NUHS       &kp CARET &kp RPAR  &kp RBRC &kp RBKT  &kp DLLR  &kp SQT
-   &LSHIFT  &trans    &trans    &trans    &trans    &trans         &kp GRAVE &kp EQUAL &kp BSLH &kp TILDE &kp TILDE &trans
-                          	    &trans    &trans    &trans         &mo 3     &kp RGUI  &kp RALT
+   &kp TAB     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5         &kp N6    &kp N7    &kp N8   &kp N9    &kp N0    &trans
+   &kp ESC     &kp STAR  &kp LBKT  &kp LBRC  &kp LPAR  &kp NUHS       &kp CARET &kp RPAR  &kp RBRC &kp RBKT  &kp DLLR  &trans
+   &kp LSHIFT  &trans    &trans    &trans    &trans    &trans         &kp GRAVE &kp EQUAL &kp BSLH &kp TILDE &kp TILDE &trans
+                                   &trans    &trans    &trans         &mo 3     &kp RGUI  &kp RALT
                         >;
                 };
 
